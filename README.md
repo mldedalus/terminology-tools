@@ -38,7 +38,7 @@ _Example Usage_
 ```
 python3 retrieve_display_from_csv.py ./output/target_codes.csv ./output/target_codes_with_display.csv
 ```
-This would update the CSV with the display code from the given FHIR Server.
+This would produce a CSV with the display code from the given FHIR Server.
 It does batches of 500 codes to the Codesystem/$lookup operation via POST.
 
 
